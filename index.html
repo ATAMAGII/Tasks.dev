@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To do project</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+   <div class="base"> 
+     <div class="card">
+        <p class="text">My Tasks</p>
+        <p class="texted">stay organized and productive</p>
+        
+        <div class="text-input">
+          <input class="search" type="text" placeholder="What needs to be done?">
+          <button class="addtask">Add Task</button>
+        </div>
+
+        <div class="datetime-popup" style="display: none;">
+          <h3>Set Due Date & Time</h3>
+          
+          <div class="calendar-section">
+            <div class="calendar-header">
+              <button class="prev-month">◀</button>
+              <span class="month-year">September 2026</span>
+              <button class="next-month">▶</button>
+            </div>
+            <div class="calendar-grid">
+              <div class="day-header">Sun</div>
+              <div class="day-header">Mon</div>
+              <div class="day-header">Tue</div>
+              <div class="day-header">Wed</div>
+              <div class="day-header">Thu</div>
+              <div class="day-header">Fri</div>
+              <div class="day-header">Sat</div>
+              <div id="calendar-days"></div>
+            </div>
+          </div>
+
+          <div class="time-section">
+            <label>Time</label>
+            <div class="time-inputs">
+              <div class="time-group">
+                <input type="number" id="hours" min="0" max="23" placeholder="00" value="12">
+                <span>:</span>
+                <input type="number" id="minutes" min="0" max="59" placeholder="00" value="00">
+              </div>
+              <select id="ampm">
+                <option>AM</option>
+                <option selected>PM</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="popup-buttons">
+            <button class="confirm-btn">Confirm</button>
+            <button class="cancel-btn">Cancel</button>
+          </div>
+        </div>
+        
+        <div class="tasks"></div>
+      </div>
+    </div>
+    <script src="test.js"></script>
+  </body>
+</html>
