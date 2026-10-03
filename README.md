@@ -1,44 +1,51 @@
 Tasks.dev 📝
 
-My Tasks — stay organized and productive.
+A simple to-do list app I made to help keep track of my tasks.
 
 🔗 Live site: https://tasks-dev-henna.vercel.app/
 
 Why I built this
 
-I wanted a to-do list that's actually mine — no bloat, no sign-up wall, just a clean place to dump my tasks and know when things are due. So I built one from scratch using plain HTML, CSS, and JavaScript, and used it as a way to practice DOM manipulation, date/time handling, and just generally making something feel good to use.
+I wanted to make my own to-do list instead of using one that already exists. I also wanted a project where I could practice JavaScript and actually use the things I've been learning.
 
-What it does
-✅ Add, complete, and delete tasks
-📅 Set a due date and time for each task, with a built-in calendar picker
-⏰ Reminders so nothing quietly slips through the cracks
-🎨 A soft, cheerful color palette — lavender background, a pale yellow card, and coral accents for the delete button
-🖥️ A centered, fixed card layout so it feels calm and focused, not cluttered
-How it's built
+I built everything from scratch with HTML, CSS and JavaScript. While making it, I got to practice things like DOM manipulation, working with dates and times, and making the UI look and feel better.
 
-Nothing fancy under the hood — just:
+What it can do
+Add tasks
+Mark tasks as completed
+Delete tasks
+Set a date and time for tasks
+Get reminders for tasks
+Pick dates using the calendar
+Simple and clean UI
 
-HTML for structure
-CSS for styling and layout
-JavaScript for the interactive bits (adding/removing tasks, the date-time picker, reminders)
+I went with a lavender background, a light yellow card, and coral for the delete button because I wanted it to look simple but still have some personality.
 
-Deployed on Vercel.
+Built with
+HTML
+CSS
+JavaScript
+
+It's deployed using Vercel.
 
 Running it locally
 
-Since it's a plain HTML/CSS/JS project, there's no build step:
+There's no complicated setup since it's just HTML, CSS and JavaScript.
 
-bash
 git clone <your-repo-url>
 cd tasks-dev
 open index.html
 
-(Or just drag index.html into your browser.)
+You can also just open the index.html file directly in your browser.
 
 Status
 
-Still a work in progress — this is part of my ongoing journey learning front-end development, so expect the feature list to keep growing as I do.
+It's still a work in progress. I'm still learning, so I'll probably keep changing things and adding more features to it as I improve.
 
-A bit about me
+About me
 
-I'm timilehin, an aspiring software engineer based in Lagos, Nigeria, currently building projects like this one as I work toward studying Software Engineering abroad. This project is part of that learning path — built, shipped, and iterated on one feature at a time.
+I'm Timilehin, an aspiring software engineer from Lagos, Nigeria.
+
+I'm learning front-end development and building projects like this to improve my skills. This is one of the projects I'm working on as I continue learning and working toward studying Software Engineering abroad.
+
+More features will probably be added as I keep learning.
